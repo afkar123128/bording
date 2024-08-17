@@ -23,7 +23,24 @@ class bord extends StatelessWidget {
   Padding(
   padding: const EdgeInsets.only(left: 39),
   child: Text("A home is a place that gives comfort to everyone. It is because a home is filled with love and life. Much like every lucky person, I also have a home and a loving family. Through My Home Essay, I will take you through what my home is like and how much it means to me.",style: TextStyle(color: Colors.black,fontWeight: FontWeight.w300,fontSize: 15)),
-)
+),
+           SizedBox(height: 95,),
+        Center(
+          child: SizedBox(
+              
+          width: 150,
+          height: 50,
+                      child: ElevatedButton(
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Color.fromARGB(255, 71, 70, 70),
+                foregroundColor: Color.fromARGB(255, 255, 254, 254),
+                
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(9))
+              ),
+              onPressed: (){}, child: Text("Get start",style: TextStyle(fontSize: 19,fontWeight: FontWeight.w500),)
+              ),
+          ),
+        )
             ],
             ),
         ),
